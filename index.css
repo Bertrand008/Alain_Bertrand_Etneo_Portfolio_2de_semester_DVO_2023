@@ -3,8 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.bg-color-orange{
+    background-color: #f67600;
+}
+
+.bg-color-balticsea{
+    background-color: #272733;
+}
+
+
+/* ----NAV-----*/
+
 .navbar{
-    background-color: #ffffff;
+    background-color: #272733;
 }
 .navbar-nav {
     list-style-type: none;
@@ -12,15 +25,15 @@
 
 ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #fff;
 }
 ul li a:hover{
-    color: #000000;
+    color: #fff;
     font-weight: bold;
 }
-
+/*-----HEADER-------*/
 .img-fluid{
-    width: 200%;
+    width: 300%;
     height: auto;
     border-radius: 60%;
 }
@@ -35,17 +48,74 @@ ul li a:hover{
     font-weight: bold;
     text-shadow: 1px 17px 20px #000000;
 }
+
+.header_h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
 .button{
     color: #ffffff;
     font-weight: bold;
     background-color: #f67600;
     border-radius: 20px;
     border: 1px solid transparent;
-    box-shadow: 1px 10px 10px grey;
+    box-shadow: 1px 10px 10px #000000;
 }
 
 .button:hover{
     color: #f67600;
     background-color: #ffffff;
     border: 1px solid #f67600;
+}
+
+/* -----MAIN/about-me-----*/
+.button-2{
+    color: #f67600;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    box-shadow: 1px 10px 10px #000000;
+}
+
+.button-2:hover{
+    color: #fff;
+    background-color: #f67600;
+    border: 1px solid #fff;
+}
+@media (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+    .navbar-toggler{
+        color: #ffffff;
+    }
+    .navbar-collapse{
+        background-color: #272733;
+        padding: 10px;
+    }
+    .navbar-nav{
+        display: none;
+        height: 1200px;
+    }
+    li a{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    li a img{
+        width: 40px;
+    }
+    header{
+        padding-top: 100px;
+    }
+    #main_formulier{
+        padding-top: 100px;
+    }
 }
