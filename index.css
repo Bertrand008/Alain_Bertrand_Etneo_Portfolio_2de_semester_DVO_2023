@@ -38,9 +38,10 @@ ul li a:hover{
     border-radius: 60%;
 }
 
-.img-fluid img{
-    box-shadow: 10px 1px #000000;
+#home-image img{
+    filter: drop-shadow(0 0 10px #fff)
 }
+
 
 .header_h1{
     font-size: 120px;
@@ -84,6 +85,39 @@ ul li a:hover{
     color: #fff;
     background-color: #f67600;
     border: 1px solid #fff;
+}
+p{
+    color: #fff;
+    font-size: 15px;
+}
+
+.img-fluid-2{
+    padding-left: 150px;
+    width: auto;
+    height: 400px;
+}
+.img-fluid-3{
+    padding-left: 220px;
+    width: auto;
+    height: 400px;
+}
+.img-fluid-4{
+    padding-left: 100px;
+    width: auto;
+    height: 400px;
+}
+.img-fluid-5{
+    padding-left: 62px;
+    width: 650px;
+    height: 400px;
+}
+.carousel-control-next span{
+    background-color: #f67600;
+    border-radius: 50px;
+}
+.carousel-control-prev span{
+    background-color: #f67600;
+    border-radius: 50px;
 }
 @media (max-width: 992px){
     .navbar{
