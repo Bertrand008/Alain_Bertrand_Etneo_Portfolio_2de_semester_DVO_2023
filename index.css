@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    color: #272733;
+}
 
-.bg-color-orange{
-    background-color: #f67600;
+.bg-color-light-green{
+    background-color: #027455;
 }
 
 .bg-color-balticsea{
-    background-color: #272733;
+    background-color: #F5FFFC;
 }
 
 
@@ -33,8 +36,8 @@ ul li a:hover{
 }
 /*-----HEADER-------*/
 .img-fluid{
-    width: 400px;
-    height: 400px;
+    width: 70%;
+    height: auto;
     border-radius: 48%;
 }
 
@@ -45,7 +48,7 @@ ul li a:hover{
 
 .header_h1{
     font-size: 120px;
-    color: #f67600;
+    color: #028D68;
     font-weight: bold;
     text-shadow: 1px 17px 20px #000000;
 }
@@ -59,21 +62,21 @@ ul li a:hover{
 .button{
     color: #ffffff;
     font-weight: bold;
-    background-color: #f67600;
+    background-color: #028D68;
     border-radius: 20px;
     border: 1px solid transparent;
     box-shadow: 1px 10px 10px #000000;
 }
 
 .button:hover{
-    color: #f67600;
-    background-color: #ffffff;
-    border: 1px solid #f67600;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #028D68;
 }
 
 /* -----MAIN/about-me-----*/
 .button-2{
-    color: #f67600;
+    color: #027455;
     font-weight: bold;
     background-color: #fff;
     border-radius: 20px;
@@ -83,10 +86,14 @@ ul li a:hover{
 
 .button-2:hover{
     color: #fff;
-    background-color: #f67600;
+    background-color: #027455;
     border: 1px solid #fff;
 }
 p{
+    color: #001913;
+    font-size: 15px;
+}
+.p2{
     color: #fff;
     font-size: 15px;
 }
@@ -111,10 +118,10 @@ p{
     width: 650px;
     height: 400px;
 }
-.carousel-control-next span{
-    background-color: #f67600;
-    border-radius: 50px;
+.fa-circle-chevron-right{
+    color: #027455;
 }
+
 .carousel-control-prev span{
     background-color: #f67600;
     border-radius: 50px;
@@ -148,6 +155,11 @@ p{
     .header_h2{
         font-size: 20px;
     }
+    .main_h2{
+        color: #000;
+        font-size: 40px;
+        font-weight: bold;
+    }
     li a{
         font-size: 20px;
         font-weight: bold;
@@ -159,7 +171,7 @@ p{
         padding-top: 100px;
     }
     .img-fluid-2{
-        padding-left: 50px;
+        padding-left: 80px;
         width: auto;
         height: 300px;
     }
