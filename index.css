@@ -4,23 +4,44 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'myriad-bold';
+    src: url('assets/myriad-pro-cufonfonts-webfont/MYRIADPRO-BOLD.woff');
+}
+@font-face {
+    font-family: 'myriad-regular';
+    src: url('assets/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff');
+}
+@font-face {
+    font-family: 'myriad-light';
+    src: url('assets/myriad-pro-cufonfonts-webfont/MyriadPro-Light.woff');
+}
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('assets/roboto-cufonfonts-webfont/Roboto-Regular.woff');
+}
+
+p{
+    font-family: 'roboto-regular';
+    color: #fff;
+}
+
 body{
     color: #272733;
 }
 
 .bg-color-light-green{
-    background-color: #027455;
+    background-color: #000;
 }
-
-.bg-color-balticsea{
-    background-color: #F5FFFC;
+.bg-color-nav{
+    background-color: #113a4d;
 }
 
 
 /* ----NAV-----*/
-
-.navbar{
-    background-color: #272733;
+.navbar-default{
+    background: none;
+    border: none;
 }
 .navbar-nav {
     list-style-type: none;
@@ -31,52 +52,76 @@ ul li a {
     color: #fff;
 }
 ul li a:hover{
-    color: #fff;
+    color: #d87314;
+    font-style: italic;
     font-weight: bold;
 }
+ul li a:focus{
+    color: #d87314;
+    font-style: italic;
+    font-weight: bold;
+}
+/*ul li a:active{
+    color: #d87314;
+    font-style: italic;
+    font-weight: bold;
+}
+*/
 /*-----HEADER-------*/
+header{
+    background-image:url(assets/bg-img-header.png);
+    background-size: 77%;
+    background-position: top;
+    height: 90vh;
+}
 .img-fluid{
-    width: 70%;
-    height: auto;
-    border-radius: 48%;
+    width: 100%;
+    height: 100%;
 }
 
-#home-image img{
-    filter: drop-shadow(0 0 10px #fff)
+/*#home-image img{
+    filter: drop-shadow(0 0 30px #fff)
 }
+*/
 
 
 .header_h1{
-    font-size: 120px;
-    color: #028D68;
-    font-weight: bold;
-    text-shadow: 1px 17px 20px #000000;
+    font-family: 'myriad-bold';
+    font-size: 60px;
+    color: #fff;
 }
 
 .header_h2{
-    font-size: 40px;
+    font-family: 'myriad-light';
+    font-size: 30px;
     color: #fff;
     font-weight: bold;
+}
+
+.graphic-span{
+    font-family: 'myriad-bold';
+    font-style: italic;
+    color: #f9ac62;
 }
 
 .button{
     color: #ffffff;
     font-weight: bold;
-    background-color: #028D68;
+    background-color: #ec811e;
     border-radius: 20px;
     border: 1px solid transparent;
     box-shadow: 1px 10px 10px #000000;
 }
 
 .button:hover{
-    color: #000;
-    background-color: #fff;
-    border: 1px solid #028D68;
+    color: #f9ac62;
+    background-color: #000;
 }
 
 /* -----MAIN/about-me-----*/
 .button-2{
-    color: #027455;
+    font-family: 'myriad-regular';
+    color: #d87314;
     font-weight: bold;
     background-color: #fff;
     border-radius: 20px;
@@ -86,8 +131,7 @@ ul li a:hover{
 
 .button-2:hover{
     color: #fff;
-    background-color: #027455;
-    border: 1px solid #fff;
+    background-color: #d87314;
 }
 p{
     color: #001913;
@@ -103,6 +147,7 @@ p{
     width: auto;
     height: 400px;
 }
+
 .img-fluid-3{
     padding-left: 220px;
     width: auto;
@@ -118,6 +163,16 @@ p{
     width: 650px;
     height: 400px;
 }
+
+.img-fluid-6{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.img-fluid-6:hover{
+    filter: drop-shadow(0 7px 10px #d87314);
+}
+
 .fa-circle-chevron-right{
     color: #027455;
 }
@@ -136,10 +191,10 @@ p{
 
     }
     .navbar-toggler{
-        background-color: #f67600;
+        border: 2px solid #fff;
     }
     .navbar-collapse{
-        background-color: #272733;
+        background-color: #027455;
         padding: 10px;
     }
     .navbar-nav{
@@ -152,12 +207,10 @@ p{
     .button{
         font-size: 15px;
     }
-    .header_h2{
-        font-size: 20px;
-    }
-    .main_h2{
-        color: #000;
-        font-size: 40px;
+    
+    .main-h1{
+        color: #fff;
+        font-size: 60px;
         font-weight: bold;
     }
     li a{
