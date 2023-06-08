@@ -34,10 +34,10 @@ body{
     color: #272733;
 }
 
-.bg-color-light-green{
+.bg-color-main{
     background-color: #000;
 }
-.bg-color-nav{
+.bg-color{
     background-color: #113a4d;
 }
 
@@ -69,9 +69,9 @@ ul li a:focus{
 /*-----HEADER-------*/
 header{
     background-image:url(assets/bg-img-header.png);
-    background-size: 77%;
+    background-size: 100%;
     background-position: top;
-    height: 90vh;
+    height: 97vh;
 }
 .img-fluid{
     width: 100%;
