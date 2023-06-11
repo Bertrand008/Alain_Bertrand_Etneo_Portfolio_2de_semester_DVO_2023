@@ -216,9 +216,9 @@ p{
     }
     header{
         background-image:url(assets/bg-img-header.png);
-        background-size: 100%;
+        background-size: 150%;
         background-position: top;
-        
+        padding: 0px;
     }
     .header_h1{
         font-size: 30px;
