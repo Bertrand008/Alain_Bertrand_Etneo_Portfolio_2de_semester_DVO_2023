@@ -43,6 +43,10 @@ body{
 
 
 /* ----NAV-----*/
+nav{
+    background-color: #f9ac62;
+    width: 100%;
+}
 .navbar-default{
     background: none;
     border: none;
@@ -121,7 +125,7 @@ header{
 
 .button-2{
     font-family: 'myriad-regular';
-    color: #d87314;
+    color: #ec811e;
     font-weight: bold;
     background-color: #fff;
     border-radius: 20px;
@@ -131,7 +135,7 @@ header{
 
 .button-2:hover{
     color: #fff;
-    background-color: #d87314;
+    background-color: #ec811e;
 }
 p{
     color: #001913;
@@ -174,11 +178,11 @@ p{
 }
 
 .fa-circle-chevron-right{
-    color: #d87314;
+    color: #ec811e;
 }
 
 .carousel-control-prev span{
-    background-color: #f67600;
+    background-color: #ec811e;
     border-radius: 50px;
 }
 
@@ -189,20 +193,19 @@ p{
     height: 100vh;
 }
 @media (max-width: 992px){
-    .navbar{
-        position: fixed;
-        top: 0;
-        left: 0;
+    nav{
         width: 100%;
-        z-index: 1;
-
+        background-color: #f9ac62;
     }
-    .navbar-toggler{
-        border: 2px solid #fff;
+    ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 35px;
     }
     .navbar-collapse{
-        background-color: #f67600;
+        background-color: #f9ac62;
         padding: 10px;
+        color: #000;
     }
     .navbar-nav{
         display: none;
