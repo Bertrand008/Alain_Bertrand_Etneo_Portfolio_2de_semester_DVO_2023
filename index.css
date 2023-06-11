@@ -123,6 +123,11 @@ header{
     color: #fff;
 }
 
+.about_streep{
+    color: #f9ac62;
+    font-size: 60px;
+}
+
 .button-2{
     font-family: 'myriad-regular';
     color: #ec811e;
@@ -146,23 +151,21 @@ p{
     font-size: 15px;
 }
 
-.img-fluid-2{
-    padding-left: 150px;
-    width: auto;
-    height: 400px;
+.img-2{
+    width: 400px;
+    height: auto;
 }
 
-.img-fluid-3{
-    padding-left: 220px;
+.img-3{
     width: auto;
     height: 400px;
 }
-.img-fluid-4{
+.img-4{
     padding-left: 100px;
     width: auto;
     height: 400px;
 }
-.img-fluid-5{
+.img-5{
     padding-left: 62px;
     width: 650px;
     height: 400px;
@@ -178,7 +181,7 @@ p{
 }
 
 .fa-circle-chevron-right{
-    color: #ec811e;
+    color: #000;
 }
 
 .carousel-control-prev span{
@@ -234,18 +237,20 @@ p{
     header{
         padding-top: 100px;
     }
-    .img-fluid-2{
+    .img-2{
         width: auto;
         height: 300px;
     }
-    .img-fluid-3{
+    .img-3{
         width: auto;
         height: 300px;
     }
-    .img-fluid-4{
-        width: 380px;
-        height: 300px;
+
+    .img-4{
+        width: auto;
+        height: 200px;
     }
+
     .img-fluid-5{
         width: 370px;
         height: 300px;
