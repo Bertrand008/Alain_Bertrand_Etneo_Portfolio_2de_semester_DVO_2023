@@ -71,7 +71,7 @@ header{
     background-image:url(assets/bg-img-header.png);
     background-size: 100%;
     background-position: top;
-    height: 97vh;
+    background-repeat: no-repeat;
 }
 .img-fluid{
     width: 100%;
@@ -201,12 +201,18 @@ p{
         border: 2px solid #fff;
     }
     .navbar-collapse{
-        background-color: #027455;
+        background-color: #f67600;
         padding: 10px;
     }
     .navbar-nav{
         display: none;
         height: 1200px;
+    }
+    header{
+        background-image:url(assets/bg-img-header.png);
+        background-size: 100%;
+        background-position: top;
+        
     }
     .header_h1{
         font-size: 30px;
@@ -226,24 +232,23 @@ p{
         padding-top: 100px;
     }
     .img-fluid-2{
-        padding-left: 80px;
         width: auto;
         height: 300px;
     }
     .img-fluid-3{
-        padding-left: 120px;
         width: auto;
         height: 300px;
     }
     .img-fluid-4{
-        padding-left: 50px;
         width: 380px;
         height: 300px;
     }
     .img-fluid-5{
-        padding-left: 20px;
         width: 370px;
         height: 300px;
+    }
+    .img-fluid-6{
+        width: 40px;
     }
     #main_formulier{
         padding-top: 100px;
