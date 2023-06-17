@@ -151,6 +151,11 @@ p{
     font-size: 15px;
 }
 
+.carousel-item{
+    width: auto;
+    height: 550px;
+}
+
 .img-2{
     width: 400px;
     height: auto;
@@ -158,7 +163,7 @@ p{
 
 .img-3{
     width: auto;
-    height: 400px;
+    height: 500px;
 }
 .img-4{
     padding-left: 100px;
@@ -236,6 +241,10 @@ p{
     }
     header{
         padding-top: 100px;
+    }
+    .carousel-item{
+        width: auto;
+        height: 300px;
     }
     .img-2{
         width: auto;
