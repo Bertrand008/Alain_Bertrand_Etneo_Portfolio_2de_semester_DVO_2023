@@ -31,12 +31,12 @@ figmaButton.onclick = function () {
 };
 
 
-let btncolor = document.getElementById("project_titel").style.color = "#fff";
-let textSize = document.getElementById("project_titel").style.fontSize = "60px";
-let textFont = document.getElementById("project_titel").style.fontFamily = "roboto-black";
-let textWeight = document.getElementById("project_titel").style.fontWeight = "bold";
+document.getElementById("project_titel").style.color = "#fff";
+document.getElementById("project_titel").style.fontSize = "60px";
+document.getElementById("project_titel").style.fontFamily = "roboto-black";
+document.getElementById("project_titel").style.fontWeight = "bold";
 
-var i=0, text;
+let i=0, text;
 
 text= "Tuning"
 
