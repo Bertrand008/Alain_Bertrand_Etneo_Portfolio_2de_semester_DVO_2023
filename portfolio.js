@@ -35,16 +35,3 @@ document.getElementById("project_titel").style.color = "#fff";
 document.getElementById("project_titel").style.fontSize = "60px";
 document.getElementById("project_titel").style.fontFamily = "roboto-black";
 document.getElementById("project_titel").style.fontWeight = "bold";
-
-let i=0, text;
-
-text= "Tuning"
-
-function typing(){
-    if(i<text.length){
-     document.getElementById("text").innerHTML += text.charAt(i);
-     i++
-     setTimeout(typing,50);   
-    }
-}
-typing();

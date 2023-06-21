@@ -215,6 +215,12 @@ p{
     color: #fff;
 }
 
+/*----page hobby----*/
+#hobby{
+    width: auto;
+    height: auto;
+}
+
 
 @media (max-width: 992px){
     nav{
@@ -285,5 +291,9 @@ p{
     }
     #main_formulier{
         padding-top: 100px;
+    }
+    #hobby{
+        width: auto;
+        height: auto;
     }
 }
