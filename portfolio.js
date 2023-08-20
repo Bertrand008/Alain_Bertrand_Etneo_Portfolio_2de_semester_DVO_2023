@@ -35,3 +35,4 @@ document.getElementById("project_titel").style.color = "#fff";
 document.getElementById("project_titel").style.fontSize = "60px";
 document.getElementById("project_titel").style.fontFamily = "roboto-black";
 document.getElementById("project_titel").style.fontWeight = "bold";
+
