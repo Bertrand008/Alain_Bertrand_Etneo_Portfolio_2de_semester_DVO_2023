@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,53 +8,61 @@
     font-family: 'myriad-bold';
     src: url('assets/myriad-pro-cufonfonts-webfont/MYRIADPRO-BOLD.woff');
 }
+
 @font-face {
     font-family: 'myriad-regular';
     src: url('assets/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff');
 }
+
 @font-face {
     font-family: 'myriad-light';
     src: url('assets/myriad-pro-cufonfonts-webfont/MyriadPro-Light.woff');
 }
+
 @font-face {
     font-family: 'roboto-regular';
     src: url('assets/roboto-cufonfonts-webfont/Roboto-Regular.woff');
 }
+
 @font-face {
     font-family: 'roboto-black';
     src: url('assets/roboto-cufonfonts-webfont/Roboto-Black.woff');
 }
 
-p{
+p {
     font-family: 'roboto-regular';
     color: #fff;
 }
 
-body{
+body {
     color: #272733;
 }
 
-.bg-color-main{
-    background-color: #000;
+.bg-color-main {
+    background: linear-gradient(#000,#000);
 }
-.bg-color{
-    background-color: #113a4d;
+
+.bg-color {
+    background: linear-gradient(#000, #113a4d);
 }
 
 
 /* ----NAV-----*/
-nav{
+nav {
     background-color: #f9ac62;
     width: 100%;
 }
-.nav-2{
+
+.nav-2 {
     background-color: #000;
     width: 100%;
 }
-.navbar-default{
+
+.navbar-default {
     background: none;
     border: none;
 }
+
 .navbar-nav {
     list-style-type: none;
 }
@@ -63,49 +71,60 @@ ul li a {
     text-decoration: none;
     color: #fff;
 }
-ul li a:hover{
-    color: #d87314;
-    font-style: italic;
-    font-weight: bold;
-}
-ul li a:active{
+
+ul li a:hover {
     color: #d87314;
     font-style: italic;
     font-weight: bold;
 }
 
-/*-----HEADER-------*/
-header{
-    background-image:url(assets/bg-img-header.png);
-    background-size: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
+ul li a:active {
+    color: #d87314;
+    font-style: italic;
+    font-weight: bold;
 }
-.img-fluid{
+#profiel_photo:hover {
+    transform: perspective(1500px) rotateX(15deg);
+}
+
+/*-----HEADER-------*/
+header {
+    /*background-image: url(assets/bg-img-header.png);*/
+    background: linear-gradient(#113a4d, #000);
+    background-size: auto;
+    /*background-position: top;*/
+    /*background-repeat: no-repeat;*/
+}
+#home-image{
+    width: 70px;
+    background-size: cover;
+}
+
+.img-fluid {
     width: 100%;
     height: 100%;
 }
 
-.header_h1{
+.header_h1 {
     font-family: 'myriad-bold';
     font-size: 60px;
     color: #fff;
 }
 
-.header_h2{
+.header_h2 {
     font-family: 'myriad-light';
     font-size: 30px;
     color: #fff;
     font-weight: bold;
 }
 
-.graphic-span{
+.graphic-span {
     font-family: 'myriad-bold';
     font-style: italic;
     color: #f9ac62;
 }
 
-.button{
+.button {
     color: #ffffff;
     font-weight: bold;
     background-color: #ec811e;
@@ -114,26 +133,26 @@ header{
     box-shadow: 1px 10px 10px #000000;
 }
 
-.button:hover{
+.button:hover {
     color: #f9ac62;
     background-color: #000;
 }
 
 /* -----MAIN/about-me-----*/
-.main-h1{
+.main-h1 {
     font-family: 'roboto-black';
     font-weight: bold;
     font-size: 60px;
     color: #fff;
 }
 
-.about_streep{
+.about_streep {
     color: #f9ac62;
     font-size: 60px;
 }
 
 
-.button-2{
+.button-2 {
     font-family: 'myriad-regular';
     color: #ec811e;
     font-weight: bold;
@@ -143,156 +162,186 @@ header{
     box-shadow: 1px 10px 10px #000000;
 }
 
-.button-2:hover{
+.button-2:hover {
     color: #fff;
     background-color: #ec811e;
 }
-p{
+
+p {
     color: #001913;
     font-size: 15px;
 }
-.p2{
+
+.p2 {
     color: #fff;
     font-size: 15px;
 }
 
-.carousel-item{
+.carousel-item {
     width: auto;
     height: 550px;
 }
 
-.img-2{
+.img-2 {
     width: 400px;
     height: auto;
 }
 
-.img-3{
+.img-3 {
     width: auto;
     height: 500px;
 }
-.img-4{
+
+.img-4 {
     padding-left: 100px;
     width: auto;
     height: 400px;
 }
-.img-42{
+
+.img-42 {
     padding-left: 100px;
     width: 400px;
     height: auto;
 }
-.img-5{
+
+.img-5 {
     padding-left: 62px;
     width: 650px;
     height: 400px;
 }
 
-.img-fluid-6{
+.img-fluid-6 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-.img-fluid-6:hover{
+
+.img-fluid-6:hover {
     filter: drop-shadow(0 7px 10px #d87314);
 }
 
-.fa-circle-chevron-right{
+.fa-circle-chevron-right {
     color: #000;
 }
 
-.carousel-control-prev span{
+.carousel-control-prev span {
     background-color: #ec811e;
     border-radius: 50px;
 }
 
-.project-bg{
+.project-bg {
     background-image: url(assets/bg-img-header.png);
     background-size: 100%;
     background-position: top;
     height: 100vh;
 }
-.rotate{
+
+.rotate {
     transform: rotate(270deg);
     color: #fff;
 }
 
+/*#profiel_photo img:hover {*/
+/*    transform: perspective(1500px) rotateX(15deg);*/
+/*}*/
+
+.skills_rotate:hover {
+    transform: perspective(1500px) rotateX(25deg);
+    box-shadow: 0px 15px 10px -15px #111
+}
+
 /*----page hobby----*/
-#hobby{
+#hobby {
     width: auto;
     height: auto;
 }
 
 
-@media (max-width: 992px){
-    nav{
+@media (max-width: 992px) {
+    nav {
         width: 100%;
         background-color: #f9ac62;
     }
+
     ul li a {
         text-decoration: none;
         color: #000;
         font-size: 35px;
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         background-color: #f9ac62;
         padding: 10px;
         color: #000;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         display: none;
         height: 1200px;
     }
-    header{
-        background-image:url(assets/bg-img-header.png);
+
+    header {
+        background-image: url(assets/bg-img-header.png);
         background-size: 150%;
         background-position: top;
         padding: 0;
     }
-    .header_h1{
+
+    .header_h1 {
         font-size: 30px;
     }
-    .button{
+
+    .button {
         font-size: 15px;
     }
-    
-    li a{
+
+    li a {
         font-size: 20px;
         font-weight: bold;
     }
-    li a img{
+
+    li a img {
         width: 40px;
     }
-    header{
+
+    header {
         padding-top: 100px;
     }
-    .carousel-item{
-        width: auto;
-        height: 300px;
-    }
-    .img-2{
-        width: auto;
-        height: 300px;
-    }
-    .img-3{
+
+    .carousel-item {
         width: auto;
         height: 300px;
     }
 
-    .img-4{
+    .img-2 {
+        width: auto;
+        height: 300px;
+    }
+
+    .img-3 {
+        width: auto;
+        height: 300px;
+    }
+
+    .img-4 {
         width: auto;
         height: 200px;
     }
 
-    .img-fluid-5{
+    .img-fluid-5 {
         width: 370px;
         height: 300px;
     }
-    .img-fluid-6{
+
+    .img-fluid-6 {
         width: 40px;
     }
-    #main_formulier{
+
+    #main_formulier {
         padding-top: 100px;
     }
-    #hobby{
+
+    #hobby {
         width: auto;
         height: auto;
     }
