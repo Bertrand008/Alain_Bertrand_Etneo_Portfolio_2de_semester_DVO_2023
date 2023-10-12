@@ -86,17 +86,25 @@ ul li a:active {
 }
 
 /*-----HEADER-------*/
-header {
-    /*background-image: url(assets/bg-img-header.png);*/
-    background: linear-gradient(#113a4d, #000);
-    background-size: auto;
-    padding-top: 100px;
-    padding-bottom: 120px;
-    /*background-position: top;*/
-    /*background-repeat: no-repeat;*/
-}
+/*header {*/
+/*    !*background-image: url(assets/bg-img-header.png);*!*/
+/*    background: linear-gradient(#113a4d, #000);*/
+/*    background-size: auto;*/
+/*    padding-top: 100px;*/
+/*    padding-bottom: 120px;*/
+/*    !*background-position: top;*!*/
+/*    !*background-repeat: no-repeat;*!*/
+/*}*/
 #header{
-    padding-top: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+header{
+    background-image: linear-gradient(rgba(17, 58, 77, 0.66), rgb(0, 0, 0)), url("assets/BUSH_BEHIND_LONG-2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-color: #113a4d;
 }
 #home-image{
     width: 70px;
