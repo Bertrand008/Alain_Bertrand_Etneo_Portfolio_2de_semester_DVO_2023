@@ -83,3 +83,11 @@
             </div>
         </div>
     </div>
+
+
+
+    ##HOVER PERSPECTIVE
+
+    /*#profiel_photo:hover {*/
+    /*    transform: perspective(1500px) rotateX(15deg);*/
+    /*}*/
