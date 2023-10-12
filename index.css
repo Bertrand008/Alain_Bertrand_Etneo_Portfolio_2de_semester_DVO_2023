@@ -90,6 +90,8 @@ header {
     /*background-image: url(assets/bg-img-header.png);*/
     background: linear-gradient(#113a4d, #000);
     background-size: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
     /*background-position: top;*/
     /*background-repeat: no-repeat;*/
 }
@@ -287,10 +289,6 @@ p {
         /*background-position: top;*/
         /*padding: 0;*/
     }
-    #header_div{
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
 
     .header_h1 {
         font-size: 30px;
@@ -309,8 +307,9 @@ p {
         width: 40px;
     }
 
-    header {
+    #header {
         padding-top: 100px;
+        padding-bottom: 150px
     }
 
     .carousel-item {
@@ -344,6 +343,9 @@ p {
 
     #main_formulier {
         padding-top: 100px;
+    }
+    #about_div{
+        padding-bottom: 100px;
     }
 
     #hobby {
