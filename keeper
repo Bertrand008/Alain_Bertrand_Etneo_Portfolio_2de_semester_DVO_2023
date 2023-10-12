@@ -1,0 +1,85 @@
+<div class="bg-color py-lg-4">
+        <div class="container">
+            <div class="container">
+                <div class="row alignitems-center">
+                    <div class="col-lg-12 col-12 py-4 text-center text-lg-center">
+                        <h1 class="header_h1 m-0">PROJECTS</h1>
+                    </div>
+                    <div class="skills_container col-lg-3 col-12 py-4 pt-lg-5 align-content-lg-center">
+                        <div class="row mt-lg-5">
+                            <div class="inhoud bg-color-main col-lg-4 col-12 px-3 rounded-5 flex-lg-column d-flex pt-lg-5 justify-content-center skills_rotate"
+                                 id="skills-container">
+                                <div id="photoshop"
+                                     class="photoshop col-2 col-md-2 col-lg-12 pe-2 py-2 pe-lg-3 pt-lg-2 pb-lg-5">
+                                    <a href="#skills"><img src="assets/ps logo.png" alt="photoshop"
+                                                           class="img-fluid-6"></a>
+                                </div>
+                                <div
+                                        class="illustrator col-2 col-lg-12 col-md-2 pe-2 py-2 pe-lg-3 pt-lg-2 pb-lg-5">
+                                    <a href="#skills"><img src="assets/ai logo.png" alt="illustrator" id="illustrator"
+                                                           class="img-fluid-6">
+                                    </a>
+                                </div>
+
+                                <div id="figma" class="figma col-lg-12 col-2 pe-2 py-2 pe-lg-3 pt-lg-2 pb-lg-5">
+                                    <a href="#skills"><img src="assets/figma-logo.png" alt="xd"
+                                                           class="img-fluid-6"></a>
+                                </div>
+                                <div id="webstorm"
+                                     class="webstorm col-lg-12 col-2 pe-2 py-2 pe-lg-3 pt-lg-2 pb-lg-5">
+                                    <a href="#skills"><img src="assets/web logo.png" alt="webstorm"
+                                                           class="img-fluid-6"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text_container col-lg-8 col-12 pb-5" id="skills">
+                        <div class="inhoud col-lg-12 col-12 align-items-lg-start">
+                            <div id="project_titel" class="photoshop_h2 col-lg-12 col-12 py-lg-3">
+                                <h1 class="main-h1 text-center text-lg-start py-4">Photoshop</h1>
+                            </div>
+                            <div id="carouselExampleIndicators" class="carousel col-lg-10">
+                                <div class="carousel-indicators col-9 col-lg-10 m-lg-0 mx-lg-5 mt-md-4">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div id="photo1" class="carousel-item active text-md-center">
+                                        <img src="assets/ps-foto-1.png" class="img-2 col-12 col-md-8 p-md-5 mx-md-5"
+                                             alt="ps-foto-1">
+                                    </div>
+                                    <div id="photo2" class="carousel-item text-md-center text-center">
+                                        <img src="assets/ps-foto-2.png" class="img-2 ms-md-4"
+                                             alt="ps-foto-2">
+                                    </div>
+                                    <div id="photo3" class="carousel-item text-md-center text-center">
+                                        <img src="assets/ps-foto-3.png" class="img-3 me-md-5 pe-md-5 py-3 col-12"
+                                             alt="ps-foto-3">
+                                    </div>
+                                    <div id="photo4" class="carousel-item text-md-center text-center col-12">
+                                        <img src="assets/ps-foto-4.png"
+                                             class="img-3 pe-lg-4 p-md-4 me-md-5 col-12" alt="ps-foto-4">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev col-1" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <i class="fa-sharp fa-solid fa-circle-chevron-right fa-rotate-180"></i>
+                                </button>
+                                <button class="carousel-control-next col-1" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <i class="fa-sharp fa-solid fa-circle-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

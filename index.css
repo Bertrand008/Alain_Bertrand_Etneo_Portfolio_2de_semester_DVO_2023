@@ -49,7 +49,8 @@ body {
 
 /* ----NAV-----*/
 nav {
-    background-color: #f9ac62;
+    background: linear-gradient(#f9ac62, #113a4d);
+    /*background-color: #f9ac62;*/
     width: 100%;
 }
 
@@ -82,9 +83,6 @@ ul li a:active {
     color: #d87314;
     font-style: italic;
     font-weight: bold;
-}
-#profiel_photo:hover {
-    transform: perspective(1500px) rotateX(15deg);
 }
 
 /*-----HEADER-------*/
@@ -151,6 +149,9 @@ header {
     font-size: 60px;
 }
 
+/*#profiel_photo:hover {*/
+/*    transform: perspective(1500px) rotateX(15deg);*/
+/*}*/
 
 .button-2 {
     font-family: 'myriad-regular';
@@ -281,10 +282,14 @@ p {
     }
 
     header {
-        background-image: url(assets/bg-img-header.png);
-        background-size: 150%;
-        background-position: top;
-        padding: 0;
+        /*background-image: url(assets/bg-img-header.png);*/
+        /*background-size: 150%;*/
+        /*background-position: top;*/
+        /*padding: 0;*/
+    }
+    #header_div{
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .header_h1 {
