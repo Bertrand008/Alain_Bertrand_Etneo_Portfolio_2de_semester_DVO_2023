@@ -23,7 +23,7 @@ function printLetterByLetter(destination, message, speed) {
             i++;
             if (i >= message.length) {
                 clearInterval(interval);
-                setTimeout(startPrinting, 3000); // Restart after 10 seconds
+                setTimeout(startPrinting, 5000); // Restart after 5 seconds
             }
         }, speed);
     }
