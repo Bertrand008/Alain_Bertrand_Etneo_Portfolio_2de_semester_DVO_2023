@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>porfolio/home</title>
-    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/assets/logo bertrand.png">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -17,6 +16,7 @@
     <link rel="stylesheet" href="bootstrap-grid.rtl.css">
     <script defer src="portfolio.js"></script>
     <script defer src="animatedtitel.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <nav class="p-4 py-lg-4 px-lg-4">
@@ -42,22 +42,22 @@
 <header class="header" id="header">
     <div class="container pt-lg-">
         <div class="row align-items-center">
-            <div class="col-12 col-md-12 col-lg-12 text-center text-md-center text-lg-center ps-md-4 py-md-5 my-md-2 py-4 my-lg-5"
+            <div class="col-12 col-md-12 col-lg-12 text-start text-md-start text-lg-center ps-md-4 py-md-5 my-md-2 py-4 my-lg-5"
                  id="header_div">
                 <h1 class="header_h2 pb-lg-3 m-lg-0 col-md-12 col-12 mt-lg-5">Hallo!</h1>
-                <h1 class="header_h1 pb-lg-3 m-lg-0 col-md-12 col-12 mt-lg-3" id="header_h1"></h1>
+                <h3 class="header_h1 pb-lg-3 m-lg-0 col-md-12 col-12 mt-lg-3" id="header_h1"></h3>
                 <h2 class="header_h2 pb-lg-4 m-lg-0 py-md-3 ">Webdeveloper & <span class="graphic-span">Graphic
                             designer</span></h2>
                 <div class="buttons col-12 col-md-12">
                     <a href="#about_me" class="text-decoration-none">
                         <button
-                                class="col-5 col-md-4 col-lg-2 py-1 py-lg-2 px-md-0 px-lg-4 py-md-2 text-center button">
+                                class="col-5 col-md-4 col-lg-3 py-1 py-lg-2 px-md-0 px-lg-4 py-md-2 text-center button">
                             CV
                         </button>
                     </a>
                     <a href="#skills">
                         <button
-                                class="col-md-4 col-lg-2 col-5 py-1 py-lg-2 px-lg-5 py-md-2 text-center button">PROJECTS
+                                class="col-md-4 col-lg-3 col-5 py-1 py-lg-2 px-lg-5 py-md-2 text-center button">PROJECTS
                         </button>
                     </a>
                 </div>
@@ -113,27 +113,27 @@
                     <div class="col-lg-12 col-12 py-4 text-center text-lg-center" id="skills">
                         <h1 class="header_h1 m-0 ">PROJECTS</h1>
                     </div>
-                    <div class="col-lg-12 d-flex py-lg-2 justify-content-lg-center text-center m-lg-0">
-                        <div class="col-lg-2 py-5 skills_container ">
-                            <img src="assets/photoshop-home.jpg" alt="photoshop" class="col-lg-11" id="photoshop">
+                    <div class="col-lg-12 col-md-12 col-12 d-flex flex-wrap d-md-inline-flex py-lg-2 justify-content-lg-center text-center m-lg-0">
+                        <div class="col-lg-2 col-md-3 col-4 px-md-2 py-5 skills_container ">
+                            <a href=""><img src="assets/photoshop-home.jpg" alt="photoshop" class="col-lg-11 col-md-12" id="photoshop"></a>
                             <h3 class="position header_h3">PHOTOSHOP</h3>
                         </div>
-                        <div class="col-lg-2 py-5 ">
-                            <img src="assets/illustrator-home.jpg" alt="illustrator" class="col-lg-11" id="illustrator">
+                        <div class="col-lg-2 col-md-3 col-4 px-md-2 py-5 ">
+                            <a href=""><img src="assets/illustrator-home.jpg" alt="illustrator" class="col-lg-11 col-md-12" id="illustrator"></a>
                             <h3 class="position header_h3">ILLUSTRATOR</h3>
                         </div>
-                        <div class="col-lg-2 py-5 ">
-                            <img src="assets/figma-home.png" alt="figma" class="col-lg-11" id="figma">
+                        <div class="col-lg-2 col-md-3 col-4 px-md-2 py-5 d-flex flex-wrap">
+                            <a href=""><img src="assets/figma-home.png" alt="figma" class="col-lg-11 col-md-12" id="figma"></a>
                             <h3 class="position header_h3">FIGMA</h3>
                         </div>
 
-                        <div class="col-lg-2 py-5 ">
-                            <img src="assets/xd-home.jpg" alt="adobe xd" class="col-lg-11" id="adobe_xd">
-                            <h3 class="position header_h3">XD</h3>
+                        <div class="col-lg-2 col-md-3 col-4 px-md-2 py-5 ">
+                            <a href=""><img src="assets/xd-home.jpg" alt="adobe xd" class="col-lg-11 col-md-12" id="blender"></a>
+                            <h3 class="position header_h3">BLENDER</h3>
                         </div>
-                         <div class="col-lg-2 py-5 ">
-                            <img src="assets/xd-home.jpg" alt="webstorm" class="col-lg-11" id="webstorm">
-                             <h3 class="position header_h3">WEBSTORM</h3>
+                         <div class="col-lg-2 col-md-3 col-4 px-md-2 py-5 ">
+                             <a href=""><img src="assets/xd-home.jpg" alt="aftereffect" class="col-lg-11 col-md-12" id="after_effect"></a>
+                             <h3 class="position header_h3">AFTER EFFECT</h3>
                         </div>
                     </div>
                 </div>

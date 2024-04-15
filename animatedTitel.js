@@ -33,3 +33,4 @@ function printLetterByLetter(destination, message, speed) {
 
 // Call the function initially
 printLetterByLetter("header_h1", "I am Alain B. Etneo", 100);
+document.getElementById('header_h1').style.fontSize = '80px';
