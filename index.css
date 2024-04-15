@@ -30,7 +30,7 @@
 }
 
 p {
-    font-family: 'roboto-regular';
+    font-family: 'roboto-regular',sans-serif;
     color: #fff;
 }
 
@@ -98,7 +98,7 @@ ul li a:active {
 /*}*/
 
 #header{
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 100px;
 }
 header{
@@ -264,7 +264,7 @@ p {
 }
 
 /*SKILLS*/
-#photoshop, #illustrator, #figma, #adobe_xd, #webstorm{
+#photoshop, #illustrator, #figma, #blender, #after_effect{
     border-radius: 20px ;
     transition: 5s ease;
 }
@@ -378,5 +378,5 @@ p {
     }
 }
 .footer_text{
-    font-size: 16px;
+    font-size: 12px;
 }
