@@ -253,15 +253,6 @@ p {
     height: 100vh;
 }
 
-.rotate {
-    transform: rotate(270deg);
-    color: #fff;
-}
-
-.skills_rotate:hover {
-    transform: perspective(1500px) rotateX(25deg);
-    box-shadow: 0 15px 10px -15px #111
-}
 
 /*SKILLS*/
 #photoshop, #illustrator, #figma, #blender, #after_effect{
