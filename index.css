@@ -249,7 +249,7 @@ p {
 }
 
 .project-bg {
-    background-image: url(assets/bg-img-header.png);
+    /*background-image: url(assets/bg-img-header.png);*/
     background-size: 100%;
     background-position: top;
     height: 100vh;
