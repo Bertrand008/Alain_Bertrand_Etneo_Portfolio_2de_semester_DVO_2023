@@ -46,6 +46,9 @@ body {
     background: linear-gradient(#000, #113a4d);
 }
 
+.bg-color2 {
+    background: linear-gradient(#113a4d, #000);
+}
 
 /* ----NAV-----*/
 nav {
