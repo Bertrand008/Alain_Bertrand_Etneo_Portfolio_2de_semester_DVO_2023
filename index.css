@@ -103,7 +103,6 @@ ul li a:active {
 
 header {
     background-image: linear-gradient(rgba(17, 58, 77, 0.66), rgb(0, 0, 0)), url("assets/BUSH_BEHIND_LONG-2.png");
-    height: 900px;
     /*background-attachment: fixed;*/
     background-repeat: no-repeat;
     background-size: cover;
