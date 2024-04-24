@@ -1,16 +1,4 @@
-// function printLetterByLetter(destination, message, speed){
-//     let i = 0;
-//
-//     let interval = setInterval(function(){
-//         document.getElementById(destination).innerHTML += message.charAt(i);
-//         i++;
-//         if (i > message.length){
-//             clearInterval(interval);
-//         }
-//     }, speed);
-// }
-// printLetterByLetter("header_h1", "I am Alain B. Etneo", 100);
-
+// HOME PAGE ANIMATION
 function printLetterByLetter(destination, message, speed) {
     let i = 0;
     let interval;
@@ -30,11 +18,11 @@ function printLetterByLetter(destination, message, speed) {
 
     startPrinting();
 }
-
-// Call the function initially
 printLetterByLetter("header_h1", "I am Alain B. Etneo", 100);
-document.getElementById('header_h1').style.fontSize = '80px';
+document.getElementById('iam').style.fontSize = '80px';
 
+
+// SKILLS ANIMATION
 // skills hover animation
 const images = document.querySelectorAll('.container_div img');
 

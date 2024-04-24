@@ -127,7 +127,7 @@ header{
 
 .header_h2 {
     font-family: 'myriad-light';
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     font-weight: bold;
 }
@@ -253,7 +253,6 @@ p {
     height: 100vh;
 }
 
-
 /*SKILLS*/
 #photoshop, #illustrator, #figma, #blender, #after_effect, #cap_cut{
     border-radius: 20px ;
@@ -269,7 +268,7 @@ p {
     text-decoration: none;
 }
 
-/*----page hobby----*/
+/*----HOBBY PAGE----*/
 #hobby {
     width: auto;
     height: auto;
@@ -370,4 +369,9 @@ p {
 }
 .footer_text{
     font-size: 12px;
+}
+
+/*----ONDERNEMING PAGE----*/
+main{
+    height: auto;
 }
