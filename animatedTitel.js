@@ -22,7 +22,6 @@ printLetterByLetter("header_h1", "I am Alain B. Etneo", 100);
 
 
 // SKILLS ANIMATION
-// skills hover animation
 const images = document.querySelectorAll('.container_div img');
 
 images.forEach(image => {
@@ -37,3 +36,4 @@ images.forEach(image => {
         image.style.transform = 'translateY(0)';
     });
 });
+
