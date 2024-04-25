@@ -101,7 +101,7 @@ ul li a:active {
 
 #header {
     padding-top: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 header {
@@ -112,7 +112,6 @@ header {
     background-position: top;
     background-color: #113a4d;
 }
-
 #home-image {
     width: 70px;
     background-size: cover;
@@ -310,7 +309,12 @@ p {
         /*background-position: top;*/
         /*padding: 0;*/
     }
-
+    header{
+        background-image: linear-gradient(rgba(17, 58, 77, 0.66), rgb(0, 0, 0)), url("assets/BUSH_BEHIND_LONG-2.png");
+    }
+    .home_image{
+        display: none;
+    }
     .header_h1 {
         font-size: 30px;
     }
