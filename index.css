@@ -283,23 +283,19 @@ p {
 @media (max-width: 992px) {
     nav {
         width: 100%;
-        background-color: #f9ac62;
-    }
-
-    .navbar{
-        background-color: #f9ac62;
+        background: linear-gradient(#f9ac62, #113a4d);
     }
 
     ul li a {
         text-decoration: none;
         color: #000;
+        padding: 20px;
         font-size: 35px;
     }
 
     .navbar-collapse {
-        background-color: #f9ac62;
-        padding: 10px;
-        color: #000;
+        padding: 20px;
+        color: #fff;
     }
 
     .navbar-nav {
