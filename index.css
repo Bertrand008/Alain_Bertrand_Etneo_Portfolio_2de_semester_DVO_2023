@@ -258,7 +258,7 @@ p {
 }
 
 /*SKILLS*/
-#photoshop, #illustrator, #figma, #blender, #after_effect, #cap_cut {
+#photoshop, #illustrator, #figma, #blender, #after_effect, #cap_cut, #lightroom {
     border-radius: 20px;
     transition: 5s ease;
 }
